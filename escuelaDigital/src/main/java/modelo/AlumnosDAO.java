@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package modelo;
 
 import config.Conexion;
@@ -115,15 +110,15 @@ public class AlumnosDAO {
     }
     
     /*validacion*/
-    public boolean ingresarUsuario(String email, String clave){
+    public boolean ingresarUsuario(String usuario, String clave){
         PreparedStatement ps;
         ResultSet rs;
         try{
             ps = conexion.prepareStatement("SELECT * FROM usuarios WHERE email=?");
-            ps.setString(1,email);
+            ps.setString(1,usuario);
             rs = ps.executeQuery();
             while(rs.next()){
-                return email.equals(rs.getString("email")) && clave.equals(rs.getString("password"));
+                return usuario.equals(rs.getString("email")) && clave.equals(rs.getString("password"));
             }return false;           
         }catch(SQLException e){
             System.out.println(e.toString());

@@ -25,7 +25,7 @@ public class AlumnosController extends HttpServlet {
             RequestDispatcher dispatcher = null;
             accion = request.getParameter("accion");
             if(accion == null || accion.isEmpty()){
-                dispatcher = request.getRequestDispatcher("/");
+                dispatcher = request.getRequestDispatcher("index.jsp");
             }else if(accion.equals("modificar")){
                 dispatcher = request.getRequestDispatcher(
                         "Vistas/modificar.jsp");
@@ -46,9 +46,9 @@ public class AlumnosController extends HttpServlet {
                 String nombres = request.getParameter("nombres");
                 String apellidos = request.getParameter("apellidos");
                 String email = request.getParameter("email");
-                String telefono = request.getParameter("teléfono");
+                String teléfono = request.getParameter("teléfono");
                 Alumnos alumno;
-                alumno = new Alumnos(0,nombres,apellidos,email,telefono);
+                alumno = new Alumnos(0,nombres,apellidos,email,teléfono);
                 alumnosDao.insertarAlumno(alumno);
                 dispatcher = request.getRequestDispatcher(
                         "Vistas/alumnos.jsp");
@@ -60,11 +60,11 @@ public class AlumnosController extends HttpServlet {
             }else if(accion.equals("ingresar")){
                 String usuario = request.getParameter("email");
                 String clave = request.getParameter("password");
-                boolean ingresa = alumnosDao.ingresarUsuario(usuario, clave);
-                if (ingresa){
+                boolean ingreso = alumnosDao.ingresarUsuario(usuario, clave);
+                if (ingreso){
                     dispatcher = request.getRequestDispatcher("Vistas/alumnos.jsp");
                 }else{
-                    dispatcher = request.getRequestDispatcher("/index.jsp");
+                    dispatcher = request.getRequestDispatcher("index.jsp");
                 } 
                 
             }           

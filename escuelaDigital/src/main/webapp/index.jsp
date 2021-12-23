@@ -23,10 +23,10 @@
                         <input type="text" class="form-control" id="email" name="email"/>
                     </div>
                     <div class="mb-3">
-                        <label for="pass" class="form-label">Contraseña</label>
-                        <input type="text" class="form-control" id="pass" name="pass"/>
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="text" class="form-control" id="password" name="password"/>
                     </div>
-                    <button type="submit" class="btn btn-primary">Agregar</button>
+                    <button type="submit" class="btn btn-primary">Iniciar</button>
                     
                 </form>
                 
