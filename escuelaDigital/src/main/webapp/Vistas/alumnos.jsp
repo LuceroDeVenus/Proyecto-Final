@@ -45,7 +45,7 @@
                                     <td><%= resultado.get(a).getNombres()%></td>
                                     <td><%= resultado.get(a).getApellidos()%></td>
                                     <td><%= resultado.get(a).getEmail()%></td>
-                                    <td><%= resultado.get(a).getTeléfono()%></td>
+                                    <td><%= resultado.get(a).getTelefono()%></td>
                                     <td><a class="text-success" href=<%= ruta%>>X</a></td>
                                     <td><a class="text-danger" href=<%= rutaE%>>X</a></td>
                                 </tr>

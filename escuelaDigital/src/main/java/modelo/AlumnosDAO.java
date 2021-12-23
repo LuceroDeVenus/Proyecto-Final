@@ -25,9 +25,9 @@ public class AlumnosDAO {
                String nombres = rs.getString("nombres");
                String apellidos = rs.getString("apellidos"); 
                String email = rs.getString("email");
-               int teléfono = rs.getInt("teléfono");
+               int telefono = rs.getInt("telefono");
                Alumnos alumnos = new Alumnos(id, nombres, apellidos,
-               email, teléfono);
+               email, telefono);
                lista.add(alumnos);
            }
            return lista;
@@ -51,10 +51,10 @@ public class AlumnosDAO {
                String nombres = rs.getString("nombres");
                String apellidos = rs.getString("apellidos"); 
                String email = rs.getString("email");
-               int teléfono = rs.getInt("teléfono");
+               int telefono = rs.getInt("telefono");
                
                alumno = new Alumnos(id,nombres,apellidos,
-               email, teléfono);
+               email, telefono);
            } return alumno;
            
        }catch(SQLException e){
@@ -66,11 +66,11 @@ public class AlumnosDAO {
     public boolean insertarAlumno(Alumnos alumno){
         PreparedStatement ps;
         try{
-             ps = conexion.prepareStatement("INSERT INTO participantes (nombres,apellidos,email,teléfono) VALUES (?,?,?,?)");
+             ps = conexion.prepareStatement("INSERT INTO participantes (nombres,apellidos,email,telefono) VALUES (?,?,?,?)");
              ps.setString(1,alumno.getNombres());
              ps.setString(2,alumno.getApellidos());
              ps.setString(3,alumno.getEmail());
-             ps.setInt(4, alumno.getTeléfono());
+             ps.setInt(4, alumno.getTelefono());
              ps.execute();
              return true;
         }catch(SQLException e){
@@ -83,11 +83,11 @@ public class AlumnosDAO {
     public boolean actualizarAlumno(Alumnos alumno){
         PreparedStatement ps;
         try{
-             ps = conexion.prepareStatement("UPDATE participantes SET nombres=?, apellidos=?, email=?, teléfono=? where id=?");
+             ps = conexion.prepareStatement("UPDATE participantes SET nombres=?, apellidos=?, email=?, telefono=? where id=?");
              ps.setString(1,alumno.getNombres());
              ps.setString(2,alumno.getApellidos());
              ps.setString(3,alumno.getEmail());
-             ps.setInt(4, alumno.getTeléfono());
+             ps.setInt(4, alumno.getTelefono());
              ps.setInt(5, alumno.getId());
              ps.execute();
              return true;

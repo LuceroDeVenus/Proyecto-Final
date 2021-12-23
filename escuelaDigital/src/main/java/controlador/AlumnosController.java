@@ -34,7 +34,7 @@ public class AlumnosController extends HttpServlet {
                 String nombres = request.getParameter("nombres");
                 String apellidos = request.getParameter("apellidos");
                 String email = request.getParameter("email");
-                String telefono = request.getParameter("teléfono");
+                String telefono = request.getParameter("telefono");
                 Alumnos alumno = new Alumnos(id,nombres,apellidos,email,telefono);
                 alumnosDao.actualizarAlumno(alumno);
                 dispatcher = request.getRequestDispatcher(
@@ -46,9 +46,9 @@ public class AlumnosController extends HttpServlet {
                 String nombres = request.getParameter("nombres");
                 String apellidos = request.getParameter("apellidos");
                 String email = request.getParameter("email");
-                String teléfono = request.getParameter("teléfono");
+                String telefono = request.getParameter("telefono");
                 Alumnos alumno;
-                alumno = new Alumnos(0,nombres,apellidos,email,teléfono);
+                alumno = new Alumnos(0,nombres,apellidos,email,telefono);
                 alumnosDao.insertarAlumno(alumno);
                 dispatcher = request.getRequestDispatcher(
                         "Vistas/alumnos.jsp");

@@ -15,7 +15,7 @@ public class Conexion {
         }
         return c;
     }
-  /*  public static void main(String[] lelis) throws SQLException{
+/*    public static void main(String[] lelis) throws SQLException{
         Connection conexion = null;
         Conexion con = new Conexion();
         conexion = con.getConection();
@@ -29,10 +29,10 @@ public class Conexion {
           String nombre = rs.getString("nombres");
           String apellidos = rs.getString("apellidos");
           String email = rs.getString("email");
-          int teléfono = rs.getInt("teléfono");
+          int telefono = rs.getInt("telefono");
             System.out.println("Id: "+ id + "\n Nombre: "+ nombre+
                     "\n Apellido: "+ apellidos+ "\n Email: "+email + "\n Teléfono: "
-                    +teléfono);
+                    +telefono);
         }        
         
     }*/

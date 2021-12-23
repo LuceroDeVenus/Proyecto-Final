@@ -48,8 +48,8 @@
                         <input type="text" class="form-control" id="email" name="email" value="<%= resultado.getEmail()%>" />
                     </div>
                     <div class="mb-3">
-                        <label for="teléfono" class="form-label">Teléfono</label>
-                        <input type="text" class="form-control" id="teléfono" name="teléfono" value="<%= resultado.getTeléfono()%>" />
+                        <label for="telefono" class="form-label">Teléfono</label>
+                        <input type="text" class="form-control" id="telefono" name="telefono" value="<%= resultado.getTelefono()%>" />
                     </div>
                     <button type="submit" class="btn btn-primary">Modificar</button>
                 </form>

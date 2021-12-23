@@ -6,9 +6,9 @@ public class Alumnos {
     private String nombres;
     private String apellidos;
     private String email;
-    private int teléfono;
+    private int telefono;
 
-    public Alumnos(int i, String nombres, String apellidos, String email, String teléfono) {
+    public Alumnos(int i, String nombres, String apellidos, String email, String telefono) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -44,21 +44,21 @@ public class Alumnos {
         this.email = email;
     }
 
-    public int getTeléfono() {
-        return teléfono;
+    public int getTelefono() {
+        return telefono;
     }
 
-    public void setTeléfono(int teléfono) {
-        this.teléfono = teléfono;
+    public void setTelefono(int telefono) {
+        this.telefono = telefono;
     }
     
     public Alumnos(int id,String n, String apellidos,
-            String email,int teléfono){
+            String email,int telefono){
         this.id=id;
         this.nombres=n;
         this.apellidos=apellidos;
         this.email=email;
-        this.teléfono=teléfono;
+        this.telefono=telefono;
     }
 
   
