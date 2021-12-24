@@ -1,0 +1,23 @@
+* {
+    margin: auto;    
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: rgb(233, 208, 208);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: rgb(24, 9, 9);
+    font-weight: 100;
+}
+#email, #password, #nombres,  #apellidos #telefono{
+    background-color: rgb(255, 246, 246);
+    color: rgb(43, 23, 23);
+}
+.btn{
+    color: rgb(250, 237, 237);
+    background-color: rgb(177, 67, 67);
+}
+table{
+    background-color: rgb(255, 246, 246);
+    color: rgb(43, 23, 23);
+}

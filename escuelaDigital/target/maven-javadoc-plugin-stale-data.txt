@@ -1,0 +1,57 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/Lucero/.m2/repository/javax/javaee-web-api/8.0.1/javaee-web-api-8.0.1.jar;C:/Users/Lucero/.m2/repository/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar;C:/Users/Lucero/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar;C:/Users/Lucero/.m2/repository/javax/servlet/jsp/javax.servlet.jsp-api/2.3.3/javax.servlet.jsp-api-2.3.3.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'E:/Onedrive/Escritorio/proyectoFinal/escuelaDigital/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'E:/Onedrive/Escritorio/proyectoFinal/escuelaDigital/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'escuelaDigital 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/7/docs/api' 'E:/Onedrive/Escritorio/proyectoFinal/escuelaDigital/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'escuelaDigital 1.0-SNAPSHOT API'
+config
+controlador
+modelo
+'E:/Onedrive/Escritorio/proyectoFinal/escuelaDigital/src/main/java/config/Conexion.java'
+'E:/Onedrive/Escritorio/proyectoFinal/escuelaDigital/src/main/java/controlador/AlumnosController.java'
+'E:/Onedrive/Escritorio/proyectoFinal/escuelaDigital/src/main/java/modelo/Alumnos.java'
+'E:/Onedrive/Escritorio/proyectoFinal/escuelaDigital/src/main/java/modelo/AlumnosDAO.java'
+C:\Users\Lucero\.m2\repository\javax\javaee-web-api\8.0.1\javaee-web-api-8.0.1.jar = 1640111771680
+C:\Users\Lucero\.m2\repository\mysql\mysql-connector-java\8.0.27\mysql-connector-java-8.0.27.jar = 1639942214163
+C:\Users\Lucero\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar = 1639942213473
+C:\Users\Lucero\.m2\repository\javax\servlet\jsp\javax.servlet.jsp-api\2.3.3\javax.servlet.jsp-api-2.3.3.jar = 1639963519085
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\src\main\java = 1640311877988
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\allclasses-index.html = 1640383186858
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\allpackages-index.html = 1640383186860
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\element-list = 1640383186779
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\help-doc.html = 1640383186883
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\index-all.html = 1640383186876
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\index.html = 1640383186846
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\jquery-ui.overrides.css = 1640383186912
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\member-search-index.js = 1640383186865
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\module-search-index.js = 1640383186862
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\overview-summary.html = 1640383186879
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\overview-tree.html = 1640383186842
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\package-search-index.js = 1640383186863
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\script.js = 1640383186886
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\search.js = 1640383186888
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\serialized-form.html = 1640383186813
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\stylesheet.css = 1640383186885
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\tag-search-index.js = 1640383186866
+E:\Onedrive\Escritorio\proyectoFinal\escuelaDigital\target\apidocs\type-search-index.js = 1640383186864

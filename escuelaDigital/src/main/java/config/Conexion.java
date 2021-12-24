@@ -15,7 +15,7 @@ public class Conexion {
         }
         return c;
     }
-/*    public static void main(String[] lelis) throws SQLException{
+   /* public static void main(String[] lelis) throws SQLException{
         Connection conexion = null;
         Conexion con = new Conexion();
         conexion = con.getConection();

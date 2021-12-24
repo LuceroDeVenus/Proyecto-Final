@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 23-12-2021 a las 19:40:55
+-- Tiempo de generación: 24-12-2021 a las 23:00:02
 -- Versión del servidor: 10.4.22-MariaDB
 -- Versión de PHP: 8.1.0
 
@@ -32,20 +32,23 @@ CREATE TABLE `participantes` (
   `nombres` varchar(100) NOT NULL,
   `apellidos` varchar(100) NOT NULL,
   `email` varchar(180) NOT NULL,
-  `teléfono` int(11) NOT NULL
+  `telefono` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `participantes`
 --
 
-INSERT INTO `participantes` (`id`, `nombres`, `apellidos`, `email`, `teléfono`) VALUES
-(1, 'Carla', 'Devicenzi', 'carla@gmail.com', 111111111),
-(2, 'luis', 'Navas', 'luisnavas@gmail.com', 2147483647),
+INSERT INTO `participantes` (`id`, `nombres`, `apellidos`, `email`, `telefono`) VALUES
+(2, 'Luis', 'Navas', 'luisnavas@gmail.com', 2147483647),
 (3, 'Lucero', 'Sileo', 'luce.sileo@gmail.com', 12121212),
 (4, 'Alan', 'García', 'alangarica@gmail.com', 133333333),
-(5, 'Mayra', 'Beppi', 'beppi@live.com', 45454545),
-(6, 'Noemí', 'Leonor', 'noe@gmail.com', 21454212);
+(5, 'Mayra', 'Beppi', 'beppi@live.com', 454545245),
+(7, 'Ludmila', 'Torres', 'lud@mail.com.ar', 15215215),
+(8, 'Pablo', 'Rodriguez', 'Pablito64@gmail.com', 44545454),
+(9, 'Noemí', 'Leonor', 'noe@live.com.ar', 4565466),
+(10, 'Sofia', 'Vallejos Torres', 'sofi@mail.com', 71147741),
+(11, 'Coco Miguel', 'Soto', 'sotocm@gmail.com', 2147483647);
 
 -- --------------------------------------------------------
 
@@ -91,7 +94,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `participantes`
 --
 ALTER TABLE `participantes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`

@@ -26,8 +26,7 @@ public class AlumnosDAO {
                String apellidos = rs.getString("apellidos"); 
                String email = rs.getString("email");
                int telefono = rs.getInt("telefono");
-               Alumnos alumnos = new Alumnos(id, nombres, apellidos,
-               email, telefono);
+               Alumnos alumnos = new Alumnos(id, nombres, apellidos, email, telefono);
                lista.add(alumnos);
            }
            return lista;
